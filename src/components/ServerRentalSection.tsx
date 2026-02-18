@@ -3,44 +3,47 @@ import { Check, Server, Zap } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    desc: "Para pequenas empresas",
+    name: "Essencial",
+    desc: "Para cartórios de menor porte",
     price: "Sob consulta",
     features: [
-      "2 vCPUs",
+      "Processador Intel Pentium",
       "4 GB RAM",
-      "100 GB SSD",
-      "Uptime 99.5%",
+      "HD SATA 500 GB",
+      "Windows ou Linux",
       "Suporte por e-mail",
+      "Uptime 99.5%",
     ],
     highlighted: false,
   },
   {
-    name: "Business",
-    desc: "Para empresas em crescimento",
+    name: "Profissional",
+    desc: "Para cartórios com alta demanda",
     price: "Sob consulta",
     features: [
-      "4 vCPUs",
+      "Processador Intel Xeon",
       "8 GB RAM",
-      "250 GB SSD",
-      "Uptime 99.9%",
+      "SSD 480 GB",
+      "Windows Server ou Linux",
       "Suporte prioritário",
       "Backup diário",
+      "Uptime 99.9%",
     ],
     highlighted: true,
   },
   {
-    name: "Enterprise",
-    desc: "Para grandes operações",
+    name: "Avançado",
+    desc: "Para cartórios com múltiplas unidades",
     price: "Sob consulta",
     features: [
-      "8+ vCPUs",
+      "Processador Intel Xeon (multi-core)",
       "16+ GB RAM",
-      "500+ GB SSD",
-      "Uptime 99.99%",
+      "SSD 960 GB + HD SATA backup",
+      "Windows Server ou Linux",
       "Suporte 24/7",
       "Backup em tempo real",
       "IP dedicado",
+      "Uptime 99.99%",
     ],
     highlighted: false,
   },
@@ -63,10 +66,10 @@ const ServerRentalSection = () => {
             Servidores
           </span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-hero-dark-foreground">
-            Aluguel de Servidores
+            Locação de Servidores Físicos
           </h2>
           <p className="text-hero-dark-foreground/60 mt-4 max-w-xl mx-auto">
-            Servidores gerenciados com alta performance, segurança e suporte técnico especializado.
+            Servidores físicos dedicados para cartórios em todo o Mato Grosso do Sul. Hardware robusto com processadores Intel Xeon e Pentium, armazenamento SSD e SATA.
           </p>
         </motion.div>
 
