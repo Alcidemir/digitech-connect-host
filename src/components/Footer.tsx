@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <img src={logo} alt="Digitech" className="h-10 mb-4" />
+            <img src={logo} alt="Digitech" className="h-[60px] mb-4" />
             <p className="text-hero-dark-foreground/50 text-sm leading-relaxed">
               Consultoria em T.I com soluções completas para sua empresa crescer com tecnologia.
             </p>
