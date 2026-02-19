@@ -1,13 +1,15 @@
 import { motion } from "framer-motion";
-import { Building2 } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 const clients = [
-  "Empresa Alpha",
-  "Grupo Beta",
-  "Tech Solutions",
-  "Indústria Gamma",
-  "Rede Omega",
-  "Construtora Delta",
+  "Porto Murtinho",
+  "Jardim",
+  "Guia Lopes da Laguna",
+  "Nioaque",
+  "Maracaju",
+  "Dourados",
+  "Três Lagoas",
+  "Aparecida do Taboado",
 ];
 
 const ClientsSection = () => {
@@ -24,14 +26,14 @@ const ClientsSection = () => {
             Clientes
           </span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground">
-            Quem confia na Digitech
+            Cartórios que confiam na Digitech
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
-            Empresas que escolheram a Digitech como parceira de tecnologia.
+            Atendemos cartórios em diversas cidades do Mato Grosso do Sul com excelência e dedicação.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {clients.map((client, i) => (
             <motion.div
               key={client}
@@ -41,9 +43,9 @@ const ClientsSection = () => {
               transition={{ delay: i * 0.08 }}
               className="glass-card rounded-xl p-6 flex flex-col items-center justify-center gap-3 hover:glow-teal transition-all duration-300"
             >
-              <Building2 className="text-secondary" size={28} />
+              <MapPin className="text-secondary" size={24} />
               <span className="text-sm font-medium text-foreground text-center">
-                {client}
+                {client} - MS
               </span>
             </motion.div>
           ))}
