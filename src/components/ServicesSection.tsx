@@ -1,43 +1,43 @@
 import { motion } from "framer-motion";
 import {
   Shield,
-  Cloud,
+  CloudUpload,
   Monitor,
-  Headphones,
-  Server,
-  Network,
+  Printer,
+  Wifi,
+  Phone,
 } from "lucide-react";
 
 const services = [
   {
-    icon: Cloud,
-    title: "Cloud & Infraestrutura",
-    desc: "Migração, gestão e otimização de ambientes em nuvem com segurança e alta disponibilidade.",
+    icon: Shield,
+    title: "Infraestrutura de T.I",
+    desc: "Projeto, implantação e gestão completa da infraestrutura de tecnologia do seu cartório.",
   },
   {
-    icon: Shield,
-    title: "Segurança da Informação",
-    desc: "Firewall, antivírus corporativo, backup e políticas de segurança para proteger seus dados.",
+    icon: CloudUpload,
+    title: "Backup em Cloud",
+    desc: "Soluções de backup em nuvem para garantir a segurança e recuperação dos dados do seu cartório.",
+  },
+  {
+    icon: Printer,
+    title: "Locação de Equipamentos",
+    desc: "Locação de impressoras, estações de trabalho e servidores físicos com suporte incluso.",
   },
   {
     icon: Monitor,
-    title: "Gestão de T.I",
-    desc: "Monitoramento proativo, suporte técnico e gestão completa do seu ambiente de tecnologia.",
+    title: "Suporte Especializado",
+    desc: "Suporte técnico especializado nos sistemas GECON, Sele e outros sistemas voltados para cartórios.",
   },
   {
-    icon: Headphones,
-    title: "Suporte Técnico",
-    desc: "Atendimento ágil e especializado para resolver problemas e manter sua operação funcionando.",
+    icon: Phone,
+    title: "Telefonia",
+    desc: "Soluções completas de telefonia corporativa para otimizar a comunicação do seu cartório.",
   },
   {
-    icon: Server,
-    title: "Servidores & Hospedagem",
-    desc: "Servidores dedicados e compartilhados com alta performance e uptime garantido.",
-  },
-  {
-    icon: Network,
-    title: "Redes & Conectividade",
-    desc: "Projeto, implantação e manutenção de redes corporativas com foco em performance.",
+    icon: Wifi,
+    title: "Rede Wi-Fi",
+    desc: "Projeto e implantação de redes Wi-Fi corporativas com segurança e alta performance.",
   },
 ];
 
