@@ -41,11 +41,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-hero-dark-foreground/50">
                 <Mail size={16} className="text-secondary" />
-                contato@digitechms.com.br
+                <a href="mailto:contato@digitechms.com.br" className="hover:text-secondary transition-colors">contato@digitechms.com.br</a>
               </li>
               <li className="flex items-center gap-2 text-sm text-hero-dark-foreground/50">
                 <Phone size={16} className="text-secondary" />
-                (67) 9999-9999
+                <a href="https://wa.me/5567999480085" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">(67) 99948-0085</a>
               </li>
               <li className="flex items-center gap-2 text-sm text-hero-dark-foreground/50">
                 <MapPin size={16} className="text-secondary" />
