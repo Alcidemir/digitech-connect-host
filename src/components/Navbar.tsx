@@ -36,7 +36,9 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="#contato"
+          href="https://wa.me/5567999480085"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex px-5 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm font-semibold hover:brightness-110 transition"
         >
           Fale Conosco
@@ -73,7 +75,9 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="#contato"
+                  href="https://wa.me/5567999480085"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
                   className="inline-flex px-5 py-2 rounded-lg bg-secondary text-secondary-foreground text-sm font-semibold"
                 >
